@@ -128,7 +128,7 @@ public class streamAPI {
 
 
                 // 1. Find the list of students whose rank is between 50 and 100
-                studentList.stream().filter(student -> student.getAge()>=50 && student.getAge()<=100).collect(Collectors.toList());
+                studentList.stream().filter(student -> student.getRank()>=50 && student.getRank()<=100).collect(Collectors.toList());
 
                 // 2. Find the list of students who stays in Bangalore and sort them by their names
                 studentList.stream().filter(student -> student.getCity().equalsIgnoreCase("Bangalore")).sorted(Comparator.comparing(Student::getFirstName)).collect(Collectors.toList());
