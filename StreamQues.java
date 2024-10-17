@@ -14,7 +14,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class CharterQuestions {
+public class StreamQues {
     public static void main(String[] args) {
      
         // 1. Write a lambda expression to sort a list of strings in reverse order
